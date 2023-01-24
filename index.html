@@ -12,77 +12,85 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="main">
+<body class="main relative flex flex-col min-h-screen justify-between text-sm bg-slate-50 font-sans">
     <div>
-        <img alt="Trello" class="trello-main-logo" src="images/trello-logo.svg">
-        <section class="inner-section">
+        <img alt="Trello" class="trello-main-logo block m-auto my-8" src="images/trello-logo.svg">
+        <section class="inner-section w-full p-0 overflow-visible">
             <div class="section-wrapper">
-                <div class="account-form">
-                    <h1 class="text-red-400 font-bold">
+                <div class="account-form bg-white rounded-sm py-5 px-8">
+                    <h1 class="text-center tracking-tight leading-4  mt-2.5 mb-6">
                         Log in to Trello
                     </h1>
 
                     <form id="login-form">
                         <div class="form-group">
-                            <input type="text" name="user" id="user" class="form-field" autofocus="autofocus"
+                            <input type="text" name="user" id="user" class="form-field indent-1.5 rounded-sm"
+                                autofocus="autofocus"
                                 placeholder="Enter email">
-                            <input id="login" type="submit" class="button account-button button-green btn btn-success mt-4"
+                            <input id="login" type="submit"
+                                class="button account-button button-green btn btn-success mt-3 mb-0 shadow-none
+                                text-xs font-bold py-1.5 px-1"
                                 value="Continue">
                         </div>
                     </form>
 
-                    <div class="login-method-separator">
+                    <div class="login-method-separator text-center mt-4 mb-4">
                         OR
                     </div>
 
-                    <a class="logo-button">
-                        <span id="google-icon" class="icon flex align-middle">
+
+                    <a class="logo-button text-center rounded-sm h-8 mb-2  pt-0.5 block">
+                        <span
+                            id="google-icon"
+                            class="icon inline-block"
+                        >
                         </span>
-                        <span class="label">
+                        <span class="label inline-block text-sm font-bold text-slate-500 p-0.5 leading-6">
                             Continue with Google
                         </span>
                     </a>
 
-                    <a class="logo-button">
-                        <span id="msft-icon" class="icon">
+                    <a class="logo-button text-center rounded-sm h-8 mb-2 pt-0.5 block">
+                        <span id="msft-icon" class="icon inline-block">
                         </span>
-                        <span class="label">
+                        <span class="label inline-block text-sm font-bold text-slate-500 p-0.5 leading-6">
                             Continue with Microsoft
                         </span>
                     </a>
 
-                    <a class="logo-button">
-                        <span id="apple-icon" class="icon">
+                    <a class="logo-button text-center rounded-sm h-8 mb-2 pt-0.5 block">
+                        <span id="apple-icon" class="icon inline-block">
                         </span>
-                        <span class="label">
+                        <span class="label inline-block text-sm font-bold text-slate-500 p-0.5 leading-6">
                             Continue with Apple
                         </span>
                     </a>
 
-                    <a class="logo-button">
-                        <span id="slack-icon" class="icon">
+                    <a class="logo-button text-center rounded-sm h-8 mb-2 pt-0.5 block">
+                        <span id="slack-icon" class="icon inline-block">
                         </span>
-                        <span class="label">
+                        <span class="label inline-block text-sm font-bold text-slate-500 p-0.5 leading-6">
                             Continue with Slack
                         </span>
                     </a>
 
-                    <p class="sso-login">
+
+                    <p class="sso-login text-center mt-2.5 text-xs font-normal">
                         <a>
                             Log in with SSO
                         </a>
                     </p>
 
-                    <hr>
+                    <hr class="mt-5">
 
-                    <ul class="bottom-link m-4 text-center">
-                        <li>
+                    <ul class="bottom-link m-4 text-center text-xs font-normal">
+                        <li class="inline-block">
                             <a>
                                 Can't log in?
                             </a>
                         </li>
 
-                        <li>
+                        <li class="inline-block">
                             <a>
                                 Sign up for an account
                             </a>
@@ -91,13 +99,13 @@
                 </div>
 
                 <ul class="bottom-link smaller-links text-center">
-                    <li>
+                    <li class="inline-block">
                         <a>
                             Privacy Policy
                         </a>
                     </li>
 
-                    <li>
+                    <li class="inline-block">
                         <a>
                             Terms of Service
                         </a>
