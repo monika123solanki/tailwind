@@ -1,18 +1,7 @@
+body {
+    margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 html{
     font-family: "jaf-facitweb", "Helvetica Neue", Arial, sans-serif;
     color: #4d4d4d;
@@ -21,112 +10,36 @@ html{
     line-height: 1.44em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (-webkit-min-device-pixel-ratio:0){
+/* @media screen and (-webkit-min-device-pixel-ratio:0){
 input[type="button"]:focus,
 input[type="submit"]:focus{
     outline: -webkit-focus-ring-color auto 5px;
     }
-}
+} */
 
 .button{
-    background: #CDD2D4;
-    background: -webkit-gradient(linear, left top, left bottom, from(#CDD2D4), to(#C4C9CC));
+    /* background: #CDD2D4; */
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#CDD2D4), to(#C4C9CC)); */
     background: linear-gradient(to bottom, #CDD2D4 0%, #C4C9CC 100%);
-    border-radius: .3em;
-    box-shadow: 0 2px 0 hsl(0, 0%, 30%);
-    color: hsl(0, 0%, 30%);
-    display: inline-block;
+    /* border-radius: .3em; */
+    /* box-shadow: 0 2px 0 hsl(0, 0%, 30%); */
+    /* color: hsl(0, 0%, 30%); */
+    /* display: inline-block; */
     /* font-weight: bold; */
     /* margin-bottom: .8em; */
     /* padding: .6em 1.3em; */
     /* position: relative; */
-    text-decoration: none;
-    border: 0px;
+    /* text-decoration: none; */
+    /* border: 0px; */
 }
 
-.button:not([disabled]):focus,
-.button:not([disabled]):hover{
-    background: #C4C9CC;
-    background: -webkit-gradient(linear, left top, left bottom, from(#C4C9CC), to(#B6BBBF));
-    background: linear-gradient(to bottom, #C4C9CC 0%, #B6BBBF 100%);
-    color: hsl(0, 0%, 30%);
-}
-
-.button:not([disabled]):active{
-    background: #B6BBBF;
-    background: -webkit-gradient(linear, left top, left bottom, from(#B6BBBF), to(#A5ACB0));
-    background: linear-gradient(to bottom, #B6BBBF 0%, #A5ACB0 100%);
-    color: hsl(0, 0%, 30%);
-}
-
-.button[disabled]{
-    background: #E2E4E6;
-    box-shadow: none;
-    color: hsl(0, 0%, 55%);
-    cursor: default;
-}
 
 .button-green{
-    background: #61BD4F;
-    background: -webkit-gradient(linear, left top, left bottom, from(#61BD4F), to(#5AAC44));
-    background: linear-gradient(to bottom, #61BD4F 0%, #5AAC44 100%);
-    box-shadow: 0 2px 0 #3F6F21;
-    color: #fff;
-}
-
-.button-green:not([disabled]):focus,
-.button-green:not([disabled]):hover{
-    /* background: #5AAC44; */
-    /* background: -webkit-gradient(linear, left top, left bottom, from(#5AAC44), to(#519839)); */
-    /* background: linear-gradient(to bottom, #5AAC44 0%, #519839 100%); */
-    color: #fff;
-}
-
-.button-green:not([disabled]):active{
-    background: #519839;
-    background: -webkit-gradient(linear, left top, left bottom, from(#519839), to(#49852E));
-    background: linear-gradient(to bottom, #519839 0%, #49852E 100%);
-    color: #fff;
-}
-
-section{
-    overflow: hidden;
-    padding: 0 1em;
-    word-wrap: break-word;
-}
-
-section img{
-    display: block;
-    margin: 1em auto;
-    max-width: 100%;
-}
-
-section h1:first-child,
-section h2:first-child,
-section h3:first-child,
-section h4:first-child,
-section h5:first-child,
-section h6:first-child{
-    margin-top: 1em;
-}
-
-.section-wrapper{
-    max-width: 540px;
-    margin: 0 auto;
+    /* background: #61BD4F; */
+    /* background: -webkit-gradient(linear, left top, left bottom, from(#61BD4F), to(#5AAC44)); */
+    /* background: linear-gradient(to bottom, #61BD4F 0%, #5AAC44 100%); */
+    /* box-shadow: 0 2px 0 #3F6F21; */
+    /* color: #fff; */
 }
 
 footer{
@@ -153,14 +66,14 @@ footer li a:visited{
 
 .atlassian-logo-small{
     width: 150px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 1px;
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    /* margin-top: 1px; */
 }
 
-.atlassian-logo-small.white{
+/* .atlassian-logo-small.white{
     display: none;
- }
+ } */
 
 @media only screen and (min-width:650px){
     section{
@@ -237,15 +150,15 @@ footer li a:visited{
 }
 
 .main .inner-section .account-button{
-    margin-bottom: 0;
-    width: 100%;
+    margin-bottom: -10px;
+    /* width: 100%; */
 }
 
 .main .inner-section .account-form .login-method-separator{
     /* text-align: center; */
     font-size: 12px;
-    /* margin-top: 16px; */
-    /* margin-bottom: 16px; */
+    /* margin-top: 5px; */
+    margin-bottom: 10px;
 }
 
 .main .inner-section .account-form {
@@ -257,7 +170,7 @@ footer li a:visited{
 
 .main .inner-section .account-form input[type='text'],
 .main .inner-section .account-form input[type='submit']{
-    width: 100%;
+    /* width: 100%; */
 }
 
 .main .inner-section .account-form .button-green{
@@ -368,25 +281,32 @@ footer li a:visited{
 
 .main .inner-section .bottom-link li:not(:first-child)::before{
     content: '\2022';
+    margin-left: 5px;
 }
 
 .main .inner-section .form-field{
     font-size: 14px;
-    /* text-indent:7px; */
+    text-indent:7px;
     background-color: #fafbfc;
     border: 2px solid #dfe1e6;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    /* -moz-box-sizing: border-box; */
+    /* box-sizing: border-box; */
     /* border-radius: 2px; */
-    height: 40px;
-    -webkit-transition: background-color .2s ease-in-out 0s, border-color .2s ease-in-out 0s;
+    /* height: 40px; */
+    /* -webkit-transition: background-color .2s ease-in-out 0s, border-color .2s ease-in-out 0s; */
     transition: background-color .2s ease-in-out 0s, border-color .2s ease-in-out 0s;
+}
+
+
+.main .inner-section .form-field::placeholder {
+  color: #61646b;
+  opacity: 1; /* Firefox */
 }
 
 .main .inner-section .form-field:focus{
     background-color: white;
     border: 2px solid #4c9aff;
-    box-shadow: 0 0 0;
+    /* box-shadow: 0 0 0; */
 }
 
 .main .inner-section h1{
@@ -404,6 +324,7 @@ footer li a:visited{
     /* margin-top: 19.5px; */
 }
 
+/* For right side and left side images */
 .main .background{
     z-index: -900;
     height: 100%;
@@ -432,48 +353,47 @@ footer li a:visited{
     max-width: 30%;
 }
 
+/* For footer */
 .main .main-footer{
-    margin-bottom: 24px;
-    font-size: 14px;
-    line-height: 20px;
-    margin-top: 10px;
+    /* margin-bottom: 28px; */
+    /* font-size: 14px; */
+    /* line-height: 20px; */
+    /* margin-top: 10px; */
 }
 
-.main .main-footer a{
-    text-decoration: none;
-    color: #5e6c84;
-}
 
-.main .main-footer a:hover,
-.main .main-footer a:hover:visited{
-    text-decoration: underline;
-    color: #5e6c84;
-}
+
 
 .main .main-footer .select-container{
-    background-color: transparent;
+    /* background-color: transparent; */
+
 }
 
 .main .main-footer .select-container select{
-    color: #5e6c84;
+    /* color: #5e6c84; */
+     /* padding-top: 8px;
+     padding-bottom: 8px; */
+
 }
 
 .main .main-footer hr{
     max-width: 400px;
     margin: 25px auto;
+   /* height: 2px; */
 }
 
 .main .main-footer .atlassian-logo-small{
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 .main .main-footer .main-footer-list{
     max-width: 45%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+
 }
 
-@media only screen and (max-width:640px){
+/* @media only screen and (max-width:640px){
     .main{
         background-color: white;
     }
@@ -496,4 +416,4 @@ footer li a:visited{
     .main .main-footer .main-footer-list{
         max-width: none;
     }
-}
+} */
